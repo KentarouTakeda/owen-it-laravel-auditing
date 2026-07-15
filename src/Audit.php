@@ -36,8 +36,6 @@ trait Audit
     protected $modified = [];
 
     /**
-     * {@inheritdoc}
-     *
      * @return MorphTo<Model, $this>
      */
     public function auditable()
@@ -46,8 +44,6 @@ trait Audit
     }
 
     /**
-     * {@inheritdoc}
-     *
      * @return MorphTo<Model, $this>
      */
     public function user()
